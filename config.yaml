@@ -1,0 +1,13 @@
+credentials:
+  usernames:
+    ambueviv:
+      email:
+      name: ambueviv
+      password: $12$svk66oUQqM3MEkgyBqvQoeBgNzV6SmoYy8AzUhF6Se9wocZZNqbqO
+    guest:
+      name: guest
+      password: $2b$12$mti7QMFqwXtyB3iI.pjIeOV/DOIaXTgK6nlxk6XLQ4jYBY0dUgIfa
+cookie:
+  expiry_days: 30  # number of days until password is asked again
+  key: JgDyEoKUNItM5prxo194jDeLYzVzmYE6 # Must be string, use https://randomkeygen.com/
+  name: streamlitcookie
