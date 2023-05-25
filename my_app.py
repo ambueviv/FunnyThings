@@ -134,12 +134,12 @@ if checkbox1:
                         if checkbox6:
                             # Schritt 7: MgCl2 pipettieren
                             checkbox7 = st.checkbox("Schritt 7: MgCl2 pipettieren")
-                            st.write("Für deine Anzahl Proben werden insgesamt", results[6], "Mikroliter MgCl2 benötigt.Davon pippetierst du eine variable Menge in jedes Testtube, sodass das Endvolumen 50 Mikroliter beträgt.")
+                            st.write("Für deine Anzahl Proben werden insgesamt", results[6], "Mikroliter MgCl2 benötigt.Davon pippetierst du eine je 1 Mikroliter in jedes Testtube.")
     
                             if checkbox7:
                                 # Schritt 7: Wasser hinzufügen
                                 checkbox8 = st.checkbox("Schritt 8: Wasser hinzufügen")
-                                st.write("Für deine Anzahl Proben werden insgesamt", results[7], "Mikroliter Wasser benötigt. Davon pipettierst du je 1 Mikroliter in jedes Testtube.")
+                                st.write("Für deine Anzahl Proben werden insgesamt", results[7], "Mikroliter Wasser benötigt. Davon pipettierst du je eine variable Menge Mikroliter in jedes Testtube, sodass das Endvolumen 50 Mikroliter beträgt.")
                                 if checkbox8:
                                     st.write("Ihr Versuch ist nun beendet")
                                     new_results = [(x, my_date.strftime("%Y-%m-%d %H:%M:%S"))]
