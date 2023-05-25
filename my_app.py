@@ -49,7 +49,7 @@ data = load_key(api_key, bin_id, username)
 
 
 # Streamlit App
-st.title('PCR Step-by-Step Anleitung')
+st.title('PCR Mastermix Herstellung')
 st.markdown('Dieses Programm führt Sie Schritt für Schritt durch den praktischen Ablauf einer PCR. Haben Sie einen Schritt ausgeführt, bestätigen Sie den Task mit einem Haken. Danach wird der nächste Schritt freigeschaltet.')
 
 st.markdown(
