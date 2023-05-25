@@ -115,22 +115,22 @@ if checkbox1:
         if checkbox2:
             # Schritt 3: Vorwärtsprimer pipettieren
             checkbox3 = st.checkbox("Schritt 3: Vorwärtsprimer pipettieren")
-            st.write("Für deine Anzahl Proben werden insgesamt", results[2], "Mikroliter Vorwärtsprimer benötigt. Davon pipettierst du je 1 Mikroliter in jedes Testtube.")
+            st.write("Für deine Anzahl Proben werden insgesamt", results[2], "Mikroliter Vorwärtsprimer benötigt. Davon pipettierst du je 2 Mikroliter in jedes Testtube.")
     
             if checkbox3:
                 # Schritt 4: Rückwärtsprimer pipettieren
                 checkbox4 = st.checkbox("Schritt 4: Rückwärtsprimer pipettieren")
-                st.write("Für deine Anzahl Proben werden insgesamt", results[3], "Mikroliter Rückwärtsprimer benötigt. Davon pipettierst du je 1 Mikroliter in jedes Testtube.")
+                st.write("Für deine Anzahl Proben werden insgesamt", results[3], "Mikroliter Rückwärtsprimer benötigt. Davon pipettierst du je 2 Mikroliter in jedes Testtube.")
     
                 if checkbox4:
                     # Schritt 5: Taq-DNA-Polymerase pipettieren
                     checkbox5 = st.checkbox("Schritt 5: Taq-DNA-Polymerase pipettieren")
-                    st.write("Für deine Anzahl Proben werden insgesamt", results[4], "Mikroliter Taq-DNA-Polymerase benötigt. Davon pipettierst du je ")
+                    st.write("Für deine Anzahl Proben werden insgesamt", results[4], "Mikroliter Taq-DNA-Polymerase benötigt. Davon pipettierst du je 1 Mikroliter in jedes Testtube. ")
                     
                     if checkbox5:
                         # Schritt 6: Template DNA pipettieren
                         checkbox6 = st.checkbox("Schritt 6: Template DNA pipettieren")
-                        st.write("Für deine Anzahl Proben werden insgesamt", results[5], "Mikroliter Template DNA benötigt. Davon pipettierst du je 1 Mikroliter in jedes Testtube.")
+                        st.write("Für deine Anzahl Proben werden insgesamt", results[5], "Mikroliter Template DNA benötigt. Davon pipettierst du je 4 Mikroliter in jedes Testtube.")
                         if checkbox6:
                             # Schritt 7: MgCl2 pipettieren
                             checkbox7 = st.checkbox("Schritt 7: MgCl2 pipettieren")
@@ -139,7 +139,7 @@ if checkbox1:
                             if checkbox7:
                                 # Schritt 7: Wasser hinzufügen
                                 checkbox8 = st.checkbox("Schritt 8: Wasser hinzufügen")
-                                st.write("Für deine Anzahl Proben werden insgesamt", results[7], "Mikroliter Wasser benötigt. Davon pipettierst du je eine variable Menge Mikroliter in jedes Testtube, sodass das Endvolumen 50 Mikroliter beträgt.")
+                                st.write("Für deine Anzahl Proben werden insgesamt", results[7], "Mikroliter Wasser benötigt. Davon pipettierst du eine variable Menge Mikroliter in jedes Testtube, sodass das Endvolumen 50 Mikroliter beträgt.")
                                 if checkbox8:
                                     st.write("Ihr Versuch ist nun beendet")
                                     new_results = [(x, my_date.strftime("%Y-%m-%d %H:%M:%S"))]
